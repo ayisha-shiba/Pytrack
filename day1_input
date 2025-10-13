@@ -1,0 +1,5 @@
+    # Accept a single character input from the user
+char = input("Enter a character: ")
+
+# Display it on the console
+print("You entered:", char)

@@ -10,8 +10,3 @@ age = input("Enter your age: ")
 print("Hello " + name + "! You are " + age + " years old.")
 print("shiba ")
 def main()
-    # Accept a single character input from the user
-char = input("Enter a character: ")
-
-# Display it on the console
-print("You entered:", char)
