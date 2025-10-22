@@ -40,3 +40,14 @@ for i in range(size):
 print("Sum of 2 arrays is:")
 for row in sum_arr:
     print(*row)
+    # Program to calculate the grade of a student using weighted average
+
+print("Enter the marks scored by the student:")
+
+written_test = float(input("Written test = "))
+lab_exams = float(input("Lab exams = "))
+assignments = float(input("Assignments = "))
+
+grade = (written_test * 70 / 100) + (lab_exams * 20 / 100) + (assignments * 10 / 100)
+
+print("Grade of the student is", grade)
