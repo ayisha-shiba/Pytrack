@@ -1,0 +1,15 @@
+# Program to check if a string is a palindrome without using reverse() or slicing
+
+string = input("Enter a string: ")
+length = len(string)
+is_palindrome = True
+
+for i in range(length // 2):
+    if string[i] != string[length - i - 1]:
+        is_palindrome = False
+        break
+
+if is_palindrome:
+    print("Entered string is a palindrome")
+else:
+    print("Entered string is not a palindrome")
