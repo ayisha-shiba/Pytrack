@@ -13,3 +13,30 @@ if is_palindrome:
     print("Entered string is a palindrome")
 else:
     print("Entered string is not a palindrome")
+# Program to add two 2D arrays
+
+size = int(input("Enter the size of arrays: "))
+
+print("Enter the values of array 1:")
+arr1 = []
+for i in range(size):
+    row = list(map(int, input().split()))
+    arr1.append(row)
+
+print("Enter the values of array 2:")
+arr2 = []
+for i in range(size):
+    row = list(map(int, input().split()))
+    arr2.append(row)
+
+# Sum of two arrays
+sum_arr = []
+for i in range(size):
+    row = []
+    for j in range(size):
+        row.append(arr1[i][j] + arr2[i][j])
+    sum_arr.append(row)
+
+print("Sum of 2 arrays is:")
+for row in sum_arr:
+    print(*row)
