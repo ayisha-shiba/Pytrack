@@ -1,8 +1,9 @@
-t1 = (1, 2, 3)
-t2 = ("apple", "banana", "cherry")
-t3 = (1, "apple", 3.5, True)
-my_set = {'shinas'}
+result = eval (input ('enter an expression'))
+ print(result)
+x=5
+y=6
+import sys
+x=int(sys.argv[1])
+y=int (sys.argv[2])
+z=x+y
 
-print(t1)
-print(type(my_set))
-print(type(t1))
